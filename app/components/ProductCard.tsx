@@ -1,10 +1,11 @@
-"use client"
+
 import React from 'react'
+import AddToCart from './AddToCart'
 
 function ProductCard() {
     return (
         <div>
-            <button className="flex text-[22px] text-[#000000] font-semibold" onClick={() => console.log('test')}>Add to cart</button>
+            <AddToCart />
         </div>
     )
 }
